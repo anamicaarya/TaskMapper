@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">AnamicaKartik</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="status">status</string>
+    <string name="pending">pending</string>
+    <string name="completed">completed</string>
+    <string name="category">category</string>
+    <string name="priority">priority</string>
+    <string name="low">low</string>
+    <string name="medium">medium</string>
+    <string name="high">high</string>
+    <string name="address">address</string>
+    <string name="action_create">New task</string>
+    <string name="action_add">Add task</string>
+    <string name="error_title">PLease enter title.</string>
+    <string name="error_description">PLease enter description.</string>
+    <string name="error_address">PLease enter address.</string>
+    <string-array name="title_array">
+        <item>Buying</item>
+        <item>Assignment 2</item>
+        <item>Paaninis Birthday </item>
+    </string-array>
+    <string-array name="description_array">
+        <item>Get grocery items</item>
+        <item>Assignment work remaining</item>
+        <item>Arrange Birthday party</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Personal</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="image_array">
+        <item>R.drawable.work</item>
+        <item>R.drawable.home</item>
+        <item>R.drawable.personal</item>
+    </string-array>
+    <string-array name="status_array">
+        <item>Pending</item>
+        <item>Completed</item>
+    </string-array>
+
+    <!-- Location related -->
+
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="latitude_string">Latitude now:</string>
+    <string name="longitude_string">Longitude now:</string>
+
+    <!-- Notification related -->
+    <string name="notification">Ping Notification</string>
+
+    <!--  Buttons -->
+    <string name="ping">Ping!</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!--  Text Views -->
+
+    <string name="ping_text">Set Seconds Until Ping</string>
+    <string name="done_snoozing">Done Snoozing.</string>
+    <string name="seconds_default">10</string>
+    <string name="reminder_label">Reminder Text</string>
+    <string name="reminder_text">Don\'t forget!</string>
+
+    <!--  Logging -->
+
+    <string name="snoozing">Snoozing!</string>
+    <string name="timer_start">Setting the timer</string>
+    <string name="sleep_error">Sleep failure</string>
+    <string name="timer_finished">Timer finished.</string>
+
+    <!-- In DisplayTaskActivity messages -->
+
+    <string name="nearby">Nearby interest locations: \n</string>
+    <string name="connectionFailed">Connection failed: ConnectionResult.getErrorCode() =</string>
+
+</resources>
